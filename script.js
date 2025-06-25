@@ -17,7 +17,7 @@ function secondsToMinutesSeconds(seconds) {
 }
 
 async function getSongs() {
-    let a = await fetch("songs/")
+    let a = await fetch("./songs/")
     let response = await a.text();
     // console.log(response);
     let div = document.createElement("div");
@@ -52,8 +52,8 @@ currentSong.addEventListener("timeupdate", () => {
 
 const PlayMusic = (track) => {
     console.log(track)
-    currentSong.src = "/songs/" + track + ".mp3"
-    let audio = new Audio("/songs/" + track + ".mp3")
+    currentSong.src = "./songs/" + track + ".mp3"
+    let audio = new Audio("./songs/" + track + ".mp3")
     currentSong.play()
     document.querySelector(".songname").innerHTML = `${track.replaceAll("%20", " ")}`
 
