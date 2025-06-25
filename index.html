@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="left ">
+            <div class="home bg-grey">
+                <div class="logo invert">
+                    <img src="./img/logo.svg" alt="Logo">
+                </div>
+                <ul>
+                    <li><img class="invert" src="./img/home.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="./img/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="library bg-grey">
+                <div class="heading">
+                    <img class="invert" src="./img/playlist.svg" alt="Playlist">
+                    <h4>Your Library</h4>
+                </div>
+                <div class="songL">
+                    <ul>
+                        <li>
+                            <div class="flex">
+                                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                <svg class="invert musicsvg" width="10px" height="10px" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M15 1H4V9H3C1.34315 9 0 10.3431 0 12C0 13.6569 1.34315 15 3 15C4.65685 15 6 13.6569 6 12V5H13V9H12C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15C13.6569 15 15 13.6569 15 12V1Z"
+                                        fill="#000000" />
+                                </svg>
+
+                                <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                                <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                                <svg class="invert playsvg" width="10px" height="10px" viewBox="-3 0 28 28"
+                                    version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                                    <title>play</title>
+
+                                    <defs>
+
+                                    </defs>
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                        sketch:type="MSPage">
+                                        <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                            transform="translate(-419.000000, -571.000000)" fill="#000000">
+                                            <path
+                                                d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554"
+                                                id="play" sketch:type="MSShapeGroup">
+
+                                            </path>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="SAname">
+                                <span>Song Name</span>
+                                <div>Artist</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <div class="header">
+                <div class="nav">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M15 6L9.70711 11.2929C9.37377 11.6262 9.20711 11.7929 9.20711 12C9.20711 12.2071 9.37377 12.3738 9.70711 12.7071L15 18"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M9 18L14.2929 12.7071C14.6262 12.3738 14.7929 12.2071 14.7929 12C14.7929 11.7929 14.6262 11.6262 14.2929 11.2929L9 6"
+                            stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn">Sign Up</button>
+                    <button class="loginbtn">Login</button>
+                </div>
+            </div>
+            <div class="playlists">
+                <h3>Spotify Playlists</h3>
+                <div class="cardcontainer">
+                    <div class="card">
+                        <img src="https://i.scdn.co/image/ab67706f000000025d258ec84e1169ce72aac60d" alt="">
+                        <div class="circle-bg" id="s1">
+                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="800px" height="800px" viewBox="-3 0 28 28" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                                <title>play</title>
+                                <desc>Created with Sketch Beta.</desc>
+                                <defs>
+
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                    sketch:type="MSPage">
+                                    <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                        transform="translate(-419.000000, -571.000000)" fill="#000000">
+                                        <path
+                                            d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554"
+                                            id="play" sketch:type="MSShapeGroup">
+
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h5>Happy Hits</h5>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://newjams-images.scdn.co/image/ab676477000033ad/dt/v3/discover-weekly/BVgs2KxAlnoUP8N1QJizmg==/QkctbmVCRy1uZUJHLW5lQg=="
+                            alt="">
+                        <div class="circle-bg" id="s2">
+                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="800px" height="800px" viewBox="-3 0 28 28" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                                <title>play</title>
+                                <desc>Created with Sketch Beta.</desc>
+                                <defs>
+
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                    sketch:type="MSPage">
+                                    <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                        transform="translate(-419.000000, -571.000000)" fill="#000000">
+                                        <path
+                                            d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554"
+                                            id="play" sketch:type="MSShapeGroup">
+
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h5>Happy Hits</h5>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/daily/2/ab6761610000e5ebcb6926f44f620555ba444fca/en-GB"
+                            alt="">
+                        <div class="circle-bg" id="s3">
+                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="800px" height="800px" viewBox="-3 0 28 28" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                                <title>play</title>
+                                <desc>Created with Sketch Beta.</desc>
+                                <defs>
+
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                    sketch:type="MSPage">
+                                    <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                        transform="translate(-419.000000, -571.000000)" fill="#000000">
+                                        <path
+                                            d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554"
+                                            id="play" sketch:type="MSShapeGroup">
+
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h5>Happy Hits</h5>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/daily/3/ab6761610000e5ebfc043bea91ac91c222d235c9/en-GB"
+                            alt="">
+                        <div class="circle-bg" id="s4">
+                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="800px" height="800px" viewBox="-3 0 28 28" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                                <title>play</title>
+                                <desc>Created with Sketch Beta.</desc>
+                                <defs>
+
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                    sketch:type="MSPage">
+                                    <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                        transform="translate(-419.000000, -571.000000)" fill="#000000">
+                                        <path
+                                            d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554"
+                                            id="play" sketch:type="MSShapeGroup">
+
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h5>Happy Hits</h5>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/daily/4/ab6761610000e5ebc75ed9d890bbc84b7c06e182/en-GB"
+                            alt="">
+                        <div class="circle-bg" id="s5">
+                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="800px" height="800px" viewBox="-3 0 28 28" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                                <title>play</title>
+                                <desc>Created with Sketch Beta.</desc>
+                                <defs>
+
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                    sketch:type="MSPage">
+                                    <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                        transform="translate(-419.000000, -571.000000)" fill="#000000">
+                                        <path
+                                            d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554"
+                                            id="play" sketch:type="MSShapeGroup">
+
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h5>Happy Hits</h5>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/daily/5/ab6761610000e5eb9973157bdaedef3f77ef8e13/en-GB"
+                            alt="">
+                        <div class="circle-bg" id="s6">
+                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="800px" height="800px" viewBox="-3 0 28 28" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                                <title>play</title>
+                                <desc>Created with Sketch Beta.</desc>
+                                <defs>
+
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                    sketch:type="MSPage">
+                                    <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                        transform="translate(-419.000000, -571.000000)" fill="#000000">
+                                        <path
+                                            d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554"
+                                            id="play" sketch:type="MSShapeGroup">
+
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h5>Happy Hits</h5>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://pickasso.spotifycdn.com/image/ab67c0de0000deef/dt/v1/img/daily/6/ab6761610000e5eb2cf6d06726cbbf929c6d37d8/en-GB"
+                            alt="">
+                        <div class="circle-bg" id="s7">
+                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="800px" height="800px" viewBox="-3 0 28 28" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                                <title>play</title>
+                                <desc>Created with Sketch Beta.</desc>
+                                <defs>
+
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                    sketch:type="MSPage">
+                                    <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                        transform="translate(-419.000000, -571.000000)" fill="#000000">
+                                        <path
+                                            d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554"
+                                            id="play" sketch:type="MSShapeGroup">
+
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h5>Happy Hits</h5>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                    <div class="card">
+                        <img src="https://newjams-images.scdn.co/image/ab67647800003f8a/dt/v3/release-radar/ab6761610000e5ebfc043bea91ac91c222d235c9/en-GB"
+                            alt="">
+                        <div class="circle-bg" id="s8">
+                            <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                            <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="800px" height="800px" viewBox="-3 0 28 28" version="1.1"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+
+                                <title>play</title>
+                                <desc>Created with Sketch Beta.</desc>
+                                <defs>
+
+                                </defs>
+                                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"
+                                    sketch:type="MSPage">
+                                    <g id="Icon-Set-Filled" sketch:type="MSLayerGroup"
+                                        transform="translate(-419.000000, -571.000000)" fill="#000000">
+                                        <path
+                                            d="M440.415,583.554 L421.418,571.311 C420.291,570.704 419,570.767 419,572.946 L419,597.054 C419,599.046 420.385,599.36 421.418,598.689 L440.415,586.446 C441.197,585.647 441.197,584.353 440.415,583.554"
+                                            id="play" sketch:type="MSShapeGroup">
+
+                                        </path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                        <h5>Happy Hits</h5>
+                        <p>Hits to boost your mood and fill you with happiness!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="playbar">
+                <div class="abovebar">
+                    <div class="songname">
+
+                    </div>
+                    <div class="barbuttons">
+                        <div class="previousbtn invert" id="previous">
+                            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M5 18L5 6M19 6V18L9 12L19 6Z" stroke="#000000" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+
+                        <div class="circle-icon" id="playbtn">
+                            <svg id="playbtnsvg1" width="60" height="60" viewBox="0 0 48 48"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="24" cy="24" r="24" fill="#fff" />
+                                <path d="M34 24L16 14V34L34 24Z" fill="#000" />
+                            </svg>
+                        </div>
+                        <div class="nextbtn invert" id="next">
+                            <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                            <svg width="30px" height="30px" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19 6V18M5 18L5 6L15 12L5 18Z" stroke="#000000" stroke-width="1.5"
+                                    stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="songtime">
+                        00:00 / 00:00
+                    </div>
+
+                </div>
+
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
