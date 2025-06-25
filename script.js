@@ -30,7 +30,7 @@ async function getSongs() {
         "Players",
         "White Brown Black", 
         "Ykwim",
-        "Winning Speech", 
+        "Winning Speech"
         
         // Add all your song names here (without .mp3 extension)
     ];
